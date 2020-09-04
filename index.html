@@ -1,0 +1,355 @@
+<html>
+	<head>
+		<title>Landing Page</title>
+		<meta http-equiv="X-UA-Compatible" content="IE-edge" />
+		<meta name="viewport" content="width=devide-width, initial-scale=1" />
+		<link
+			rel="stylesheet"
+			href="libraries/font-awesome-4.7.0/css/font-awesome.min.css"
+		/>
+		<link href="css/styles.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header>
+			<div class="menu">
+				<div class="container">
+					<nav class="header-principal">
+						<a class="logo-menu">
+							<img src="img/logo.nenu.png" alt="logo-blussom" />
+						</a>
+						<ul class="lista-menu">
+							<li><a class="nav-link active" href="#home">INICIO</a></li>
+							<li><a class="nav-link" href="#produtos">PRODUTOS</a></li>
+							<li><a class="nav-link" href="#sobre">SOBRE</a></li>
+							<li><a class="nav-link">RECURSOS</a></li>
+							<li><a class="nav-link" href="#bolg">BLOG</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<section class="seção01">
+			<div class="container">
+				<div class="home-principal">
+					<div class="home-texto">
+						<h1 class="h1-principal">Get Insurance Policy and Save 20%!</h1>
+						<p>
+							Lorem ipsum dolor sit amet eiusmod tempor labore offer magna
+							aliqua. Enim lorem ipsum dolor minimo laboris aliquiped commodo
+							consequat.
+						</p>
+						<ul class="lista-home">
+							<li>Tendis tempor ante acu ipsum finibus</li>
+							<li>Atimus etims urnatis quisle ratione netis</li>
+							<li>Ratione lorem nets et sequi tempor</li>
+						</ul>
+					</div>
+
+					<div class="formulario-home">
+						<form
+							id="contatos-formulario"
+							method="post"
+							action="quote-form.php"
+						>
+							<div class="container-titulo-formulario">
+								<h3 class="titulo-formulario">Faça um orçamento grátis</h3>
+							</div>
+							<fieldset class="container-dados-formulario">
+								<h4 class="texto-dados-formulario">
+									Tornamos mais simples obter o melhor seguro. Deixe nossa
+									equipe fazer o trabalho para que você não precise fazer isso.
+								</h4>
+								<div class="dados-formulario">
+									<input
+										name="nome"
+										type="text"
+										placeholder="nome"
+										class="input-home"
+									/>
+
+									<input
+										name="tell"
+										class="number input-home"
+										type="text"
+										placeholder="tell"
+									/>
+									<input
+										name="email"
+										class="required email input-home"
+										type="text"
+										placeholder="E-mail"
+									/>
+
+									<select name="subject" class="dtr-select input-home">
+										<option value="">selicione o tipo de seguro</option>
+										<option value="health">seguro de saúde</option>
+										<option value="pet">seguro para o pet</option>
+										<option value="travel">seguro de viagem</option>
+									</select>
+
+									<button
+										type="submit"
+										class="dtr-btn-round dtr-btn-blue btn-form-home"
+									>
+										Faça um orçamento
+									</button>
+									<div id="result"></div>
+								</div>
+							</fieldset>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="produtos">
+			<nav class="nav-produtos">
+				<ul class="lista-nav-produtos">
+					<li class="nav-produtos-li">
+						<img src="img/icon.saude.nav.png" class="icon-nav-produtos" />
+						<a href="#plano-de-saude">Plano de saúde</a>
+					</li>
+					<li class="nav-produtos-li">
+						<img src="img/icon.travel.nav.png" class="icon-nav-produtos" />
+						<a href="#seguro-viagem">seguro viagem </a>
+					</li>
+					<li class="nav-produtos-li active">
+						<img src="img/icon.pet.nav.png" class="icon-nav-produtos" />
+						<a href="#seguro-para-pet">Seguro para animais de estimação</a>
+					</li>
+				</ul>
+			</nav>
+
+			<div class="container">
+				<div class="produtos-container">
+					<div class="plano-de-saude">
+						<img src="img/img-pl-saude.png" alt="imagem saude" />
+						<div class="txt-saude">
+							<img src="img/icon-saude.png" alt="icone saude" />
+							<h2>Plano de saúde</h2>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipiscing elit sed
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim
+								ad minim veniam, quis nostrud exercitation commodo consequat.
+							</p>
+							<button class="btn-produtos">
+								<a href="#">Faça um orçamento </a>
+							</button>
+						</div>
+					</div>
+
+					<div class="seguro-viagem">
+						<img src="img/img-viagem.png" alt="imagem-tavel" />
+						<div class="txt-viagem">
+							<img src="img/icon-viagem.png" />
+							<h2>Seguro de viagem</h2>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipiscing elit sed
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim
+								ad minim veniam, quis nostrud exercitation commodo consequat.
+							</p>
+							<button class="btn-produtos">
+								<a href="#"
+									>Faça um orçamento
+									<i class="fa fa-bath" aria-hidden="true"></i>
+								</a>
+							</button>
+						</div>
+					</div>
+
+					<div class="seguro-pet">
+						<img
+							src="img/img-pet.png"
+							alt="imagem-cachorro"
+							style="width: 500px"
+						/>
+
+						<div class="txt-pet">
+							<img src="img/icon-pet.png" />
+							<h2>Seguro para animais de estimação</h2>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipiscing elit sed
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim
+								ad minim veniam, quis nostrud exercitation commodo consequat
+							</p>
+							<button class="btn-produtos">
+								<a href="#">Faça um orçamento </a>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="container-sobre">
+			<div class="sobre-ceo">
+				<h2>Vamos ajudar sua família em seu consectetur adipiscing elit</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+					eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+					minim veniam, quis nostrud exercício ullamco laboris nisi ut aliquip
+					ex ea commodo consequat.
+				</p>
+				<div class="ceo-assinatura">
+					<img
+						src="img/img-ceo.jpg"
+						alt="foto-ceo"
+						class="ceo-assinatura-img"
+					/>
+					<div class="txt-ceo">
+						<h5>Annie Cooper</h5>
+						<p>CEO, seguradora</p>
+					</div>
+					<img src="img/assinatura.ceo.png" alt="assinatura" />
+				</div>
+			</div>
+
+			<div class="img-sb1">
+				<img src="img/img-sob1.jpg" alt="img-sob1" />
+			</div>
+
+			<div class="img-sb2">
+				<img src="img/img-sob2.jpg" alt="img-sob2" />
+			</div>
+
+			<div class="metricas">
+				<h2>Vamos ajudar sua família em seu consectetur adipiscing elit</h2>
+				<button>Quem somos nós</button>
+				<button>Qual é a nossa missão</button>
+				<button>O que acreditamos</button>
+			</div>
+		</section>
+
+		<section id="Recursos">
+			<div class="avaliacoes">
+				<h2>Avaliações</h2>
+				<p>
+					Lorem Ipsum é simplesmente um texto fictício da indústria de impressão
+					e composição
+				</p>
+				<div class="avaliacoes-post">
+					<div class="post">
+						<img src="img/img-ceo.jpg" alt="foto ceo" />
+						<div class="post-txt">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+								enim ad minim veniam, quis nostrud exercício ullamco laboris
+								nisi ut aliquip ex ea commodo consequat.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="recursos-contato">
+				<div class="contato">
+					<h2>Nós temos você<span class="cor-azul">coberto</span></h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+						ad minim veniam, quis nostrud exercício ullamco laboris nisi ut
+						aliquip ex ea commodo consequat.
+					</p>
+					<h3>Todo mundo merece!</h3>
+					<button>Contate-Nos</button>
+				</div>
+			</div>
+			<div class="recursos-recursos">
+				<div class="container">
+					<h2>Características principais</h2>
+					<p>
+						Lorem Ipsum é simplesmente um texto fictício da indústria de
+						impressão e composição
+					</p>
+					<div class="card-recursos">
+						<i class="fa fa-sun-o" aria-hidden="true"></i>
+						<h3>Melhor Cobertura</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+							eiusmod tempor incidid labore dolore magna.
+						</p>
+						<a>Saber mais >></a>
+					</div>
+					<div class="card-recursos">
+						<i class="fa fa-bars" aria-hidden="true"></i>
+						<h3>Custo-beneficio</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+							eiusmod tempor incidid labore dolore magna.
+						</p>
+						<a>Saber mais >></a>
+					</div>
+					<div class="card-recursos">
+						<i class="fa fa-tags" aria-hidden="true"></i>
+						<h3>Melhores Práticas</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+							eiusmod tempor incidid labore dolore magna.
+						</p>
+						<a>Saber mais >></a>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<article>
+			<div class="blog">
+				<div class="container">
+					<div class="card-blog">
+						<img src="img/viagem.blog.jpg" alt="foto viagem" />
+						<div class="txt-card-blog">
+							<p>Viagem</p>
+							<h5>
+								<a href="#">A importância do seguro de viagem</a>
+							</h5>
+							<ul>
+								<li>Rose Leon</li>
+								<li>03/09/2020</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</article>
+
+		<footer class="rodape">
+			<div class="container">
+				<div class="colunas-rodape">
+					<div class="marca-rodape">
+						<img src="img/logo.rodape.png" />
+						<p>4.5 de 5 com base em 2.450 avaliações</p>
+					</div>
+					<div cla="diretrizes-rodape">
+						<h5>Diretrizes</h5>
+						<ul>
+							<li>Política de Privacidade</li>
+							<li>Recursos</li>
+							<li>Termo de uso</li>
+						</ul>
+					</div>
+					<div class="companhia-rodape">
+						<h5>Campanhia</h5>
+						<ul>
+							<li>Serviços</li>
+							<li>Blog</li>
+							<li>Contato</li>
+						</ul>
+					</div>
+					<div class="produtos-rodape">
+						<h5>Produtos</h5>
+						<ul>
+							<li>Sáude</li>
+							<li>Seguro para o pet</li>
+							<li>Viagem</li>
+						</ul>
+					</div>
+				</div>
+				<div class="linha-rodape">
+					<h4>© copyright 2019. Modelo por Tansh</h4>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
